@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__left">
+                <div class="header__icon">
+                    <img src="img/banner-img.jpg" alt="黒猫バーナー">
+                </div>
+            </div>
+            <div class="header__right">
+                <button class="hamburger-btn" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="header__nav">
+                    <ul class="header__titles text-size-s">
+                        <li class="header__humburger-icon">
+                            <div class="header__humburger-icon-wrapper">
+                                <img class="header__humburger-icon-img" src="img/logo-img.png" alt="黒猫ロゴマーク">
+                            </div>
+                        </li>
+                        <li class="header__title"><a href="#top" class="header__maintitle">トップページ<br><span class="header__subtitle main-color">Top</span></a></li>
+                        <li class="header__title"><a href="#about-me" class="header__maintitle">自己紹介<br><span class="header__subtitle main-color">About Me</span></a></li>
+                        <li class="header__title"><a href="#skill" class="header__maintitle">スキル<br><span class="header__subtitle main-color">Skill</span></a></li>
+                        <li class="header__title"><a href="#experience" class="header__maintitle">制作例<br><span class="header__subtitle main-color">Expericence</span></a></li>
+                        <li class="header__title"><a href="#service" class="header__maintitle">商品紹介<br><span class="header__subtitle main-color">Service</span></a></li>
+                        <li class="header__title"><a href="#contact" class="header__maintitle">お問い合わせ<br><span class="header__subtitle main-color">Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="top">
+            <div class="top__title main-brightcolor">Witchy Production</div>
+        </div>
+        <div class="coments">
+            <div class="coments__title main-color">
+                時は金なり
+            </div>
+            <p class="coments__text">あなたの貴重な時間を無駄にしないため、<br>
+                ご希望に沿った最高の作品を<br>
+                妥協なく制作させて頂きます。</p>
+        </div>
+        <div id="about-me" class="base-color">
+            <div class="about-me__main-title main-color">自己紹介</div>
+            <div class="subtitle">About Me</div>
+            <div class="about-me__wrapper">
+                <div class="about-me__left">
+                    <div class="about-me__logo">
+                        <img src="img/logo-img.png" alt="黒猫">
+                    </div>
+                    <a href="https://twitter.com/Aki_Witch" class="about-me__link">
+                        <div class="about-me__twitter">
+                            <img src="img/icon-img.png" alt="ツイッター">
+                        </div>
+                        <div class="about-me__twitter-name main-color">@Aki_Witch</div>
+                    </a>
+                </div>
+                <div class="about-me__right">
+                    <p class="about-me__hello">
+                        はじめまして！アキと申します。
+                    </p>
+                    <p class="about-me__career text-indent">
+                        【経歴】<br>
+                        1996年生まれ<br>
+                        大学院卒業後、大手製薬会社に就職
+                    </p>
+                    <p class="about-me__concept text-indent">
+                        【コンセプト】<br>
+                        直感的な「使いやすさ」を考えて制作します。
+                    </p>
+                    <p class="about-me__comment text-indent">
+                        【コメント】<br>
+                        Web制作を行っているアキと申します。<br>
+                        「時は金なり」をモットーに迅速なレスポンスを心がけております。<br>
+                        Twitterを通してIT知識や学習過程を発信していますので是非ご覧ください。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="skill">
+            <div class="skill__main-title main-color">スキル</div>
+            <div class="subtitle">Skill</div>
+            <div class="skill__container slide-container"><!--slide-containerはセレクタ名取り外しの時に使用したセレクタ-->
+                <div class="skill__wrapper slide-wrapper base-greencolor"><!--slide-wrapperはセレクタ名取り外しの時に使用したセレクタ-->
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill1.png" alt="html">
+                    </div>
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill2.png" alt="css">
+                    </div>
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill3.png" alt="sass">
+                    </div>
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill4.png" alt="javascript">
+                    </div>
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill5.png" alt="jquery">
+                    </div>
+                    <div class="skill__img slide-img"><!--slide-imgはセレクタ名取り外しの時に使用したセレクタ-->
+                        <img src="img/言語アイコン/skill6.png" alt="php">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div id="experience" class="base-color">
+            <div class="experience__main-title main-color">制作例</div>
+            <div class="subtitle">Experience</div>
+            <div class="experience__wrapper">
+                <div class="experience__left-wrapper">
+                    <div class="experience__img">
+                        <a href="蒼乃建設_模写/index.html"　target="_blank" rel="noopener noreferrer"><img src="img/experience-img.png" alt="建設会社"></a>
+                    </div>
+                    <div class="experience__left-title text-size-l">架空建設会社のコーディング</div>
+                    <div class="experience__left-text">
+                        <p class="experience__left-work">
+                            【制作内容】<br>
+                            コーディング
+                        </p>
+                        <p class="experience__left-language">
+                            【使用言語・ソフト】<br>
+                            HTML/CSS
+                        </p>
+                    </div>
+                </div>
+                <div class="experience__right-wrapper">
+                    <div class="experience__img">
+                        <a href=""><img src="img/experience-img2.png" alt="ポートフォリオ"></a>
+                    </div>
+                    <div class="experience__right-title text-size-l">ポートフォリオサイト</div>
+                    <div class="experience__right-text">
+                        <p class="experience__right-work">
+                            【制作内容】<br>
+                            アイコン作成・デザイン・コーディング
+                        </p>
+                        <p class="experience__right-language">
+                            【使用言語・ソフト】<br>
+                            Adobe XD・Illustrator・HTML/CSS・JavaScript・jQuery
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="service">
+            <div class="service__main-title main-color">商品紹介</div>
+            <div class="subtitle">Service</div>
+            <div class="service__wrapper">
+                <div class="service__left">
+                    <div class="service__paint-icon">
+                        <img src="img/service-img2.png" alt="キャンバス">
+                    </div>
+                    <div class="service__left-title text-size-l">Webサイトのデザイン制作</div>
+                    <p class="service__left-text">Webサイトのプランニング、アイコンやバーナーの作成、デザインカンプの作成を承ります。</p>
+                </div>
+                <div class="service__right">
+                    <div class="service__pc-icon">
+                        <img src="img/service-img1.png" alt="パソコン">
+                    </div>
+                    <div class="service__right-title text-size-l">Webサイトのコーディング制作</div>
+                    <p class="service__right-text">LP制作やコーポレートサイト制作、コーディング代行を承ります。</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="base-color">
+            <div class="contact__main-title main-color">お問い合わせ</div>
+            <div class="subtitle">Contact</div>
+            <p class="contact__text">
+                制作のご依頼・ご相談等<br>
+                お気軽にお問い合わせ下さい
+            </p>
+            <div class="contact__wrapper">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd7VACayRbrViLSU15xA6x3VYgoo7xHBLJiN-CHhmTw19xo2w/formResponse"method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                    <label for="form-name">お名前（ニックネーム）</label>
+                    <p><input id="form-name" type="text" name="entry.1098743279" placeholder="お名前" required=""></p>
+                    <label for="form-mail">メールアドレス</label>
+                    <p><input id="form-mail" type="email" name="entry.1293579898" placeholder="example@mail.co.jp" required=""></p>
+                    <label for="form-detail">お問い合わせ詳細</label>
+                    <p>ご不明な点があれば、お気軽にご連絡ください（最大1,000文字）。</p>
+                    <p><textarea id="form-detail" class="form-detail" name="entry.410383254" placeholder="ご自由にご記載下さい。" required=""></textarea></p>
+                    <p class="form__btn-area"><button type="submit" name="button" value="送信する" class="btn">送信する</button></p>
+                </form>
+                <script type="text/javascript">var submitted = false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thank-you.html';}"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+                <img class="footer__logo-img" src="img/banner-img.jpg" alt="黒猫バーナー">
+            </div>
+            <p class="footer__copy-right text-size-s">
+                Copyright © 2021 Witchy Production
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+</html>
