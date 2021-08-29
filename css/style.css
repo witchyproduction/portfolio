@@ -666,6 +666,14 @@ img {
 
 .experience__img img {
   border-radius: 20px;
+  heigh: 300px
+  margin: auto
+}
+
+@media screen and (max-width: 1023px) {
+  .experience__img img {
+    width: 100%;
+  }
 }
 
 .experience__left-title {
