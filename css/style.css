@@ -673,12 +673,11 @@ img {
 }
 
 @media screen and (max-width: 1023px) {
-  .experience__img　img{
+  .experience__img img{
     max-height: 100%;
     height: auto;
   }
 }
-
 .experience__left-title {
   margin: 1.875rem 0;
 }
