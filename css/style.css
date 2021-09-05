@@ -661,23 +661,22 @@ img {
   }
 }
 
-.experience__img {
-  height: 300px;
-}
-
 .experience__img :hover {
   opacity: 0.8;
 }
 
+
+.experience__img img {
+  height: 300px;
+  border-radius: 20px;
+  margin: auto;
+}
+
 @media screen and (max-width: 1023px) {
-  .experience__img{
+  .experience__img　img{
     max-height: 100%;
     height: auto;
   }
-
-.experience__img img {
-  border-radius: 20px;
-  margin: auto;
 }
 
 .experience__left-title {
