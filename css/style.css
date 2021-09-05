@@ -672,6 +672,7 @@ img {
 @media screen and (max-width: 1023px) {
   .experience__img{
     max-height: 100%;
+    height: auto;
   }
 
 .experience__img img {
